@@ -1,12 +1,17 @@
-import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component } from '@angular/core';
+import { CtaComponent } from './components/shared/cta/cta';
+import { VisionComponent } from './components/sections-b/vision/vision';
+import { ValuePropComponent } from './components/sections-b/value-prop/value-prop';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  standalone: true,
+  imports: [
+    CtaComponent,
+    VisionComponent,
+    ValuePropComponent
+  ],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
-export class App {
-  protected readonly title = signal('LandingPage');
-}
+export class AppComponent {}
