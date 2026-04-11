@@ -1,17 +1,19 @@
 import { Component } from '@angular/core';
+import { NavbarComponent } from './components/shared/navbar/navbar';
+import { FooterComponent } from './components/shared/footer/footer';
 import { CtaComponent } from './components/shared/cta/cta';
 import { VisionComponent } from './components/sections-b/vision/vision';
 import { ValuePropComponent } from './components/sections-b/value-prop/value-prop';
-import { FooterComponent } from './components/shared/footer/footer';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [
+    NavbarComponent,
+    FooterComponent,
     CtaComponent,
     VisionComponent,
-    ValuePropComponent,
-    FooterComponent
+    ValuePropComponent
   ],
   templateUrl: './app.html',
   styleUrl: './app.css'
