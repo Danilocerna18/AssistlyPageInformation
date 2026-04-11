@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { CtaComponent } from './components/shared/cta/cta';
 import { VisionComponent } from './components/sections-b/vision/vision';
 import { ValuePropComponent } from './components/sections-b/value-prop/value-prop';
+import { FooterComponent } from './components/shared/footer/footer';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +10,8 @@ import { ValuePropComponent } from './components/sections-b/value-prop/value-pro
   imports: [
     CtaComponent,
     VisionComponent,
-    ValuePropComponent
+    ValuePropComponent,
+    FooterComponent
   ],
   templateUrl: './app.html',
   styleUrl: './app.css'
