@@ -2,10 +2,10 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-vision',
+  standalone: true,
   imports: [],
   templateUrl: './vision.html',
-  styleUrl: './vision.css',
+  styleUrls: ['./vision.css']
 })
-export class Vision {
+export class VisionComponent {}
 
-}
