@@ -5,6 +5,7 @@ import { CtaComponent } from './components/shared/cta/cta';
 import { VisionComponent } from './components/sections-b/vision/vision';
 import { HeroComponent } from './components/sections-a/hero/hero';
 import { SolutionComponent } from './components/sections-a/solution/solution';
+import { HowItWorksComponent } from './components/sections-b/how-it-works/how-it-works';
 import { ValuePropComponent } from './components/sections-b/value-prop/value-prop';
 import { ProblemComponent } from './components/sections-a/problem/problem';
 
@@ -15,6 +16,7 @@ import { ProblemComponent } from './components/sections-a/problem/problem';
     NavbarComponent,
     FooterComponent,
     CtaComponent,
+    HowItWorksComponent,
     VisionComponent,
     ValuePropComponent,
     HeroComponent,
