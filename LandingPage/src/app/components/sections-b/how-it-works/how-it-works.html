@@ -1,1 +1,23 @@
-<p>how-it-works works!</p>
+ <section class="how-section" id="como-funciona">
+  <div class="container">
+    <span class="section-label">Cómo funciona</span>
+    <h2 class="section-title">Simple, rápido y humano.</h2>
+    <p class="section-sub">
+      En cuatro pasos pasas de no saber qué comprar a tener
+      exactamente lo que necesitas.
+    </p>
+
+    <div class="steps mt-4">
+      <ng-container *ngFor="let step of steps; let last = last">
+        <div class="step">
+          <div class="step-num">{{ step.number }}</div>
+          <div class="step-content">
+            <h3>{{ step.title }}</h3>
+            <p>{{ step.description }}</p>
+          </div>
+        </div>
+        <div class="step-connector" *ngIf="!last"></div>
+      </ng-container>
+    </div>
+  </div>
+</section>

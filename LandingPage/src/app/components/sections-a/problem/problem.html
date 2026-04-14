@@ -1,1 +1,20 @@
-<p>problem works!</p>
+<section class="problem-section" id="problema">
+  <div class="container">
+    <span class="section-label">El problema</span>
+    <h2 class="section-title">Comprar se volvió abrumador.</h2>
+    <p class="section-sub">
+      Demasiadas opciones, poco tiempo y decisiones difíciles hacen que
+      la experiencia de compra genere estrés en lugar de satisfacción.
+    </p>
+
+    <div class="row g-3 mt-2">
+      <div class="col-sm-6" *ngFor="let item of problems">
+        <div class="problem-card">
+          <div class="problem-icon">{{ item.icon }}</div>
+          <h3>{{ item.title }}</h3>
+          <p>{{ item.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
