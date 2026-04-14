@@ -5,6 +5,7 @@ import { CtaComponent } from './components/shared/cta/cta';
 import { VisionComponent } from './components/sections-b/vision/vision';
 import { HeroComponent } from './components/sections-a/hero/hero';
 import { ValuePropComponent } from './components/sections-b/value-prop/value-prop';
+import { ProblemComponent } from './components/sections-a/problem/problem';
 
 @Component({
   selector: 'app-root',
@@ -15,7 +16,8 @@ import { ValuePropComponent } from './components/sections-b/value-prop/value-pro
     CtaComponent,
     VisionComponent,
     ValuePropComponent,
-    HeroComponent
+    HeroComponent,
+    ProblemComponent
   ],
   templateUrl: './app.html',
   styleUrl: './app.css'
