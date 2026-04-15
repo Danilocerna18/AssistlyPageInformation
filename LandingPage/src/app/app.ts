@@ -8,6 +8,7 @@ import { SolutionComponent } from './components/sections-a/solution/solution';
 import { HowItWorksComponent } from './components/sections-b/how-it-works/how-it-works';
 import { ValuePropComponent } from './components/sections-b/value-prop/value-prop';
 import { ProblemComponent } from './components/sections-a/problem/problem';
+import { FeaturesComponent } from './components/sections-b/features/features';
 
 @Component({
   selector: 'app-root',
@@ -19,6 +20,7 @@ import { ProblemComponent } from './components/sections-a/problem/problem';
     HowItWorksComponent,
     VisionComponent,
     ValuePropComponent,
+    FeaturesComponent,
     HeroComponent,
     SolutionComponent,
     ProblemComponent
