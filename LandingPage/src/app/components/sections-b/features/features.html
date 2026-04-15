@@ -1,1 +1,20 @@
-<p>features works!</p>
+<section class="features-section" id="funcionalidades">
+  <div class="container">
+    <span class="section-label">Funcionalidades</span>
+    <h2 class="section-title">Todo lo que necesitas, integrado.</h2>
+    <p class="section-sub">
+      Cada detalle está pensado para hacer tu experiencia de compra
+      más fácil, rápida y personal.
+    </p>
+
+    <div class="row g-3 mt-2">
+      <div class="col-md-4 col-sm-6" *ngFor="let feat of features">
+        <div class="feat-card">
+          <span class="feat-icon">{{ feat.icon }}</span>
+          <h4>{{ feat.title }}</h4>
+          <p>{{ feat.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><p>features works!</p>
