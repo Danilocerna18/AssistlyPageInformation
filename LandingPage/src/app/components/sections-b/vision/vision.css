@@ -34,3 +34,60 @@
     font-size: 20px;
   }
 }
+
+@media (max-width: 768px) {
+  .vision-section {
+    padding: 40px 15px;
+  }
+
+  .vision-block {
+    padding: 30px 20px;
+    border-radius: 16px;
+    text-align: center;
+  }
+
+  .vision-quote {
+    font-size: 20px;
+    max-width: 100%;
+  }
+
+  .vision-sub {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .vision-section {
+    padding: 56px 30px;
+  }
+
+  .vision-block {
+    padding: 40px 30px;
+  }
+
+  .vision-quote {
+    font-size: 22px;
+  }
+
+  .vision-sub {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .vision-section {
+    padding: 72px 60px;
+  }
+
+  .vision-block {
+    padding: 56px 48px;
+  }
+
+  .vision-quote {
+    font-size: 26px;
+  }
+
+  .vision-sub {
+    font-size: 14px;
+  }
+}

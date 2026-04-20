@@ -106,3 +106,104 @@ solution-section {
   background: rgba(255,255,255,0.1);
   margin: 8px 0;
 }
+
+@media (max-width: 768px) {
+  .solution-section {
+    padding: 40px 15px;
+  }
+
+  .section-label {
+    text-align: center;
+    font-size: 10px;
+  }
+
+  .section-title {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .section-sub {
+    font-size: 14px;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .solution-block {
+    padding: 24px 20px;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .solution-block h3 {
+    font-size: 20px;
+  }
+
+  .solution-block p {
+    font-size: 13px;
+  }
+
+  .solution-tags {
+    justify-content: center;
+  }
+
+  .stats-wrapper {
+    padding: 18px;
+    margin-top: 20px;
+  }
+
+  .stat-num {
+    font-size: 32px;
+  }
+
+  .stat-label {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .solution-section {
+    padding: 56px 30px;
+  }
+
+  .section-title {
+    font-size: 32px;
+  }
+
+  .section-sub {
+    font-size: 15px;
+  }
+
+  .solution-block {
+    padding: 30px;
+  }
+
+  .solution-block h3 {
+    font-size: 22px;
+  }
+
+  .solution-block p {
+    font-size: 14px;
+  }
+
+  .stat-num {
+    font-size: 38px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .solution-section {
+    padding: 72px 60px;
+  }
+
+  .section-title {
+    font-size: 38px;
+  }
+
+  .section-sub {
+    font-size: 16px;
+  }
+
+  .stat-num {
+    font-size: 44px;
+  }
+}

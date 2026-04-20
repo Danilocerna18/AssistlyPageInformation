@@ -53,8 +53,69 @@
   color: #1a1a18;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
+  .cta-section {
+    padding: 50px 15px;
+    text-align: center;
+  }
+
   .cta-title {
     font-size: 28px;
+    letter-spacing: -1px;
+  }
+
+  .cta-sub {
+    font-size: 14px;
+    margin-bottom: 24px;
+  }
+
+  .btn-primary-custom,
+  .btn-ghost-custom {
+    display: block;
+    width: 100%;
+    padding: 14px 20px;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .cta-section {
+    padding: 60px 30px;
+    text-align: center;
+  }
+
+  .cta-title {
+    font-size: 34px;
+  }
+
+  .cta-sub {
+    font-size: 15px;
+  }
+
+  .btn-primary-custom,
+  .btn-ghost-custom {
+    padding: 14px 28px;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .cta-section {
+    padding: 80px 60px;
+  }
+
+  .cta-title {
+    font-size: 42px;
+  }
+
+  .cta-sub {
+    font-size: 16px;
+  }
+
+  .btn-primary-custom,
+  .btn-ghost-custom {
+    padding: 16px 36px;
+    font-size: 16px;
   }
 }
