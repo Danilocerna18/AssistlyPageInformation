@@ -64,3 +64,82 @@
   line-height: 1.55;
   margin: 0;
 }
+
+@media (max-width: 768px) {
+  .features-section {
+    padding: 40px 15px;
+  }
+
+  .section-label {
+    text-align: center;
+    font-size: 10px;
+  }
+
+  .section-title {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .section-sub {
+    font-size: 14px;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .feat-card {
+    padding: 16px;
+    text-align: center;
+  }
+
+  .feat-icon {
+    font-size: 22px;
+  }
+
+  .feat-card h4 {
+    font-size: 13px;
+  }
+
+  .feat-card p {
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .features-section {
+    padding: 56px 30px;
+  }
+
+  .section-title {
+    font-size: 32px;
+  }
+
+  .section-sub {
+    font-size: 15px;
+  }
+
+  .feat-card {
+    padding: 18px;
+  }
+
+  .feat-card h4 {
+    font-size: 14px;
+  }
+
+  .feat-card p {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .features-section {
+    padding: 72px 60px;
+  }
+
+  .section-title {
+    font-size: 38px;
+  }
+
+  .section-sub {
+    font-size: 16px;
+  }
+}
