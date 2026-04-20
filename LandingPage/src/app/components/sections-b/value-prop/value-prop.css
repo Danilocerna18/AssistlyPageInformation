@@ -65,3 +65,79 @@
   line-height: 1.55;
   margin: 0;
 }
+
+@media (max-width: 768px) {
+  .value-section {
+    padding: 40px 15px;
+  }
+
+  .section-label {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .section-title {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .section-sub {
+    font-size: 14px;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .value-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .value-check {
+    margin-bottom: 8px;
+  }
+
+  .value-item h4 {
+    font-size: 14px;
+  }
+
+  .value-item p {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .value-section {
+    padding: 56px 30px;
+  }
+
+  .section-title {
+    font-size: 32px;
+  }
+
+  .section-sub {
+    font-size: 15px;
+  }
+
+  .value-item h4 {
+    font-size: 15px;
+  }
+
+  .value-item p {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .value-section {
+    padding: 72px 60px;
+  }
+
+  .section-title {
+    font-size: 38px;
+  }
+
+  .section-sub {
+    font-size: 16px;
+  }
+}
